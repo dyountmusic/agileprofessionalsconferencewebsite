@@ -174,3 +174,13 @@ footer a {
     font-size: 13px;
     text-align: left;
 }
+
+/*Article List CSS*/
+
+ul {
+text-align: center;
+}
+
+li {
+display: inline-block;
+}
