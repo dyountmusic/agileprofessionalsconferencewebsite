@@ -1,38 +1,21 @@
-/** Fonts */
-
-/** Semibold */
-
-@font-face {
-    font-family: "SF Display Semibold";
-    src: url('/css/San Francisco Font/SanFranciscoDisplay-Semibold.otf') format('opentype');
-}
-
-/** Bold */
-
-@font-face {
-    font-family: "SF Display Bold";
-    src: url('/css/San Francisco Font/SanFranciscoDisplay-Bold.otf') format('opentype');
-}
-
-/** Medium */
-
-@font-face {
-    font-family: "SF Display Medium";
-    src: url('/css/San Francisco Font/SanFranciscoDisplay-Medium.otf') format('opentype');
-}
-
-/** Regular */
-
-@font-face {
-    font-family: "SF Display Regular";
-    src: url('/css/San Francisco Font/SanFranciscoDisplay-Regular.otf') format('opentype');
-}
-
-
 /** BEGIN GLOBAL CSS */
 
 * {
-    font-family: "SF Display Regular";
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .centerText {
@@ -66,8 +49,7 @@
     color: white;
 }
 
-h1 {
-    font-family: "SF Display Bold";
+welcome {
     text-align: center;
 }
 
@@ -121,6 +103,7 @@ footer a {
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    
 }
 
 .box:before,
@@ -184,3 +167,4 @@ text-align: center;
 li {
 display: inline-block;
 }
+
