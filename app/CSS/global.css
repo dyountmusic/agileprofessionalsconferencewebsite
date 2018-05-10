@@ -1,40 +1,3 @@
-/** Fonts */
-
-/** Semibold */
-
-@font-face {
-    font-family: "SF Display Semibold";
-    src: url('/css/San Francisco Font/SanFranciscoDisplay-Semibold.otf') format('opentype');
-}
-
-/** Bold */
-
-@font-face {
-    font-family: "SF Display Bold";
-    src: url('/css/San Francisco Font/SanFranciscoDisplay-Bold.otf') format('opentype');
-}
-
-/** Medium */
-
-@font-face {
-    font-family: "SF Display Medium";
-    src: url('/css/San Francisco Font/SanFranciscoDisplay-Medium.otf') format('opentype');
-}
-
-/** Regular */
-
-@font-face {
-    font-family: "SF Display Regular";
-    src: url('/css/San Francisco Font/SanFranciscoDisplay-Regular.otf') format('opentype');
-}
-
-
-/** BEGIN GLOBAL CSS */
-
-* {
-    font-family: "SF Display Regular";
-}
-
 .centerText {
     text-align: center;
     align-content: center;
@@ -173,4 +136,11 @@ footer a {
 .box content p {
     font-size: 13px;
     text-align: left;
+}
+
+.homepageimage {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
